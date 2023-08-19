@@ -5,5 +5,59 @@ body {
 
 .up-top {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 264px;
+    padding-right: 264px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.down-top {
+    display: flex;
+    flex-direction: column;
+    padding-left: 264px;
+    padding-right: 264px;
+}
+
+.up-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 254px;
+    padding-right: 264px;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.down-center {
+    display: flex;
+    flex-direction: column;
+    padding-left: 264px;
+    padding-right: 264px;
+}
+
+.up-bottom {
+    padding-left: 264px;
+    padding-right: 264px;
+}
+
+.container {
+    padding: 50px;
+}
+
+.down-bottom {
     
 }
