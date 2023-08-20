@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: roboto;
 }
 
 .up-top {
@@ -9,12 +10,18 @@ body {
     align-items: center;
     padding-left: 264px;
     padding-right: 264px;
+    background-color: #1F2937;
+    color: #f9faf8f8;
+    font-size: 18px;
+    font-weight: bolder;
 }
 
 ul {
     display: flex;
     flex-direction: row;
     gap: 15px;
+    font-size: 15px;
+    color: #e5e7eb;
 }
 
 li {
@@ -23,23 +30,77 @@ li {
 
 .down-top {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding-left: 264px;
     padding-right: 264px;
+    padding-bottom: 24px;
+    background-color: #1F2937;
+    color: #f9faf8f8;
+}
+
+.buttonone {
+    top:50%;
+    background-color:#3882f6;
+    color: #f9f6f8;
+    font-weight: bolder;
+    border:none; 
+    border-radius:10px; 
+    padding:8px;
+    min-height:30px; 
+    min-width: 120px;
+}
+
+.heromaintext {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.herosecondarytext {
+    font-size: 18px;
+    color: #e5e7eb
+}
+
+.upperimage {
+    width: 900px;
+    height: 300px;
 }
 
 .up-center {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-left: 254px;
-    padding-right: 264px;
+    margin-left: 254px;
+    margin-right: 264px;
+}
+
+.info {
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1F2937;
 }
 
 .images {
     display: flex;
     flex-direction: row;
-    gap: 32px;
+    gap: 2px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.image {
+    border: 5px solid #3882F6;
+    border-radius: 15px;
+    width: 200px;
+    height: 200px;
+}
+
+figcaption {
+    font-size: 18px;
+    text-align: center;
+    padding: 15px;
 }
 
 .down-center {
@@ -47,17 +108,32 @@ li {
     flex-direction: column;
     padding-left: 264px;
     padding-right: 264px;
+    background-color: #E5E7EB;
+}
+
+.main-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote {
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .up-bottom {
-    padding-left: 264px;
-    padding-right: 264px;
+    margin-left: 264px;
+    margin-right: 264px;
 }
 
 .container {
-    padding: 50px;
+    margin: 50px;
 }
 
 .down-bottom {
-    
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
