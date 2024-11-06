@@ -11,7 +11,7 @@ body {
     padding-left: 264px;
     padding-right: 264px;
     background-color: #1F2937;
-    color: #f9faf8f8;
+    color: #e2eff1;
     font-size: 18px;
     font-weight: bolder;
 }
@@ -21,7 +21,7 @@ ul {
     flex-direction: row;
     gap: 15px;
     font-size: 15px;
-    color: #e5e7eb;
+    color: #e2eff1;
 }
 
 li {
@@ -34,14 +34,14 @@ li {
     padding-left: 264px;
     padding-right: 264px;
     padding-bottom: 24px;
-    background-color: #1F2937;
-    color: #f9faf8f8;
+    background-color: #555273;
+    color: #e2eff1;
 }
 
 .buttonone {
     top:50%;
-    background-color:#3882f6;
-    color: #f9f6f8;
+    background-color:#e23e57;
+    color: #e2eff1;
     font-weight: bolder;
     border:none; 
     border-radius:10px; 
@@ -57,7 +57,7 @@ li {
 
 .herosecondarytext {
     font-size: 18px;
-    color: #e5e7eb
+    color: #e2eff1
 }
 
 .upperimage {
@@ -76,7 +76,7 @@ li {
 .info {
     font-weight: bolder;
     font-size: 36px;
-    color: #1F2937;
+    color: #555273;
 }
 
 .images {
@@ -92,7 +92,7 @@ li {
 }
 
 .image {
-    border: 5px solid #3882F6;
+    border: 5px solid #e23e57;
     border-radius: 15px;
     width: 200px;
     height: 200px;
@@ -109,13 +109,13 @@ figcaption {
     flex-direction: column;
     padding-left: 264px;
     padding-right: 264px;
-    background-color: #E5E7EB;
+    background-color: #e2eff1;
 }
 
 .main-text {
     font-size: 36px;
     font-style: italic;
-    color: #1F2937;
+    color: #65799b;
 }
 
 .quote {
@@ -133,7 +133,7 @@ figcaption {
     display: flex;
     flex-direction: row;
     margin: 50px;
-    background-color:#3882f6;
+    background-color:#e23e57;
     padding: 16px;
     border-radius: 10px;
     justify-content: space-around;
@@ -141,15 +141,15 @@ figcaption {
 }
 
 .text {
-    color: #f9faf8f8;
+    color: #e2eff1;
 }
 
 .buttontwo {
     top:50%;
-    background-color:#3882f6;
-    color: #f9f6f8;
+    background-color:#e23e57;
+    color: #e2eff1;
     font-weight: bolder;
-    border: 2px solid #f9f6f8; 
+    border: 2px solid #e2eff1; 
     border-radius:10px; 
     padding:8px;
     max-height: 50px;
@@ -162,6 +162,6 @@ figcaption {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    background-color: #1F2937;
-    color: #f9f6f8;
+    background-color: #65799b;
+    color: #e2eff1;
 }
