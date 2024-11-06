@@ -61,6 +61,7 @@ li {
 }
 
 .upperimage {
+    margin-top: 20px;
     width: 900px;
     height: 300px;
 }
