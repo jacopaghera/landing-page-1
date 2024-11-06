@@ -5,6 +5,10 @@ body {
 }
 
 .up-top {
+    overflow: hidden;
+    position: fixed;
+    width: 67.55%;
+    top: 0; 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,6 +33,7 @@ li {
 }
 
 .down-top {
+    margin-top: 70px;
     display: flex;
     flex-direction: row;
     padding-left: 264px;
